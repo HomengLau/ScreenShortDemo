@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_double">16dp</dimen>
+
+    <dimen name="card_detail_line_height">60dp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="card_line_height">@dimen/height_normal</dimen>
+    <dimen name="height_normal">48dp</dimen>
+    <dimen name="card_padding_width">@dimen/margin_double</dimen>
+</resources>

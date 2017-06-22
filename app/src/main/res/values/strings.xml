@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ScreenShort</string>
+    <string name="show_float_view">悬浮球常驻(自动靠边隐藏)</string>
+    <string name="show_float_view_request">悬浮球包含多个功能入口，建议开启！</string>
+
+    <string name="punish_float_problem">悬浮球功能已开启!</string>
+    <string name="punish_float_action">悬浮球不显示？点击设置</string>
+    <string name="open_setting_failed_diy">无法打开系统设置，请手动设置</string>
+</resources>

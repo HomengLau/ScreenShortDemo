@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.taylor.screenshort.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/show_float_view_rl"
+        style="@style/hintTextViewRelativeLayoutSelector"
+        android:duplicateParentState="false">
+
+
+        <com.taylor.screenshort.view.HintTextView
+            android:id="@+id/show_float_view_tv"
+            style="@style/hintTextViewInLayoutLeft"
+            app:hint="@string/show_float_view_request"
+            app:msg="@string/show_float_view" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/show_float_view_switch"
+            style="@style/hintTextViewswitchStyle" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
